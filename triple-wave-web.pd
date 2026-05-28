@@ -88,7 +88,7 @@
 #X restore 89 99 pd wave;
 #X obj 43 14 vsl 30 61 0 127 0 0 empty empty DISTANCE 0 -9 0 10 #327850
 #ffffff #000000 0 1;
-#X obj 105 14 vsl 30 61 1.27 127 1 0 empty empty ROUGHNESS 0 -9 0 10
+#X obj 105 14 vsl 30 61 1.27 72 1 0 empty empty ROUGHNESS 0 -9 0 10
 #008080 #ffffff #000000 0 1;
 #X obj 167 14 vsl 30 61 1.27 127 1 0 empty empty FOAM 0 -9 0 10 #004080
 #ffffff #000000 0 1;
@@ -180,7 +180,7 @@
 #X restore 318 99 pd wave;
 #X obj 272 14 vsl 30 61 0 127 0 0 empty empty DISTANCE 0 -9 0 10 #327850
 #ffffff #000000 0 1;
-#X obj 334 14 vsl 30 61 1.27 127 1 0 empty empty ROUGHNESS 0 -9 0 10
+#X obj 334 14 vsl 30 61 1.27 72 1 0 empty empty ROUGHNESS 0 -9 0 10
 #008080 #000000 #000000 0 1;
 #X obj 396 14 vsl 30 61 1.27 127 1 0 empty empty FOAM 0 -9 0 10 #004080
 #ffffff #000000 0 1;
@@ -272,7 +272,7 @@
 #X restore 541 99 pd wave;
 #X obj 504 14 vsl 30 61 0 127 0 0 empty empty DISTANCE 0 -9 0 10 #327850
 #ffffff #000000 0 1;
-#X obj 566 14 vsl 30 61 1.27 127 1 0 empty empty ROUGHNESS 0 -9 0 10
+#X obj 566 14 vsl 30 61 1.27 70 1 0 empty empty ROUGHNESS 0 -9 0 10
 #008080 #ffffff #000000 0 1;
 #X obj 628 14 vsl 30 61 1.27 127 1 0 empty empty FOAM 0 -9 0 10 #004080
 #ffffff #000000 0 1;
