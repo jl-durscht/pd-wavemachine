@@ -1,4 +1,4 @@
-#N canvas -8 -8 1936 1000 10;
+#N canvas 0 0 1920 984 10;
 #X obj 314 295 dac~;
 #N canvas 735 342 450 300 wave 0;
 #N canvas 277 151 1366 681 waveling 0;
