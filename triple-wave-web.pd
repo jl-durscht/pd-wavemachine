@@ -1,5 +1,5 @@
-#N canvas 494 355 723 222 10;
-#X obj 314 195 dac~;
+#N canvas -8 -8 1936 1000 10;
+#X obj 314 295 dac~;
 #N canvas 735 342 450 300 wave 0;
 #N canvas 277 151 1366 681 waveling 0;
 #X obj 98 88 *~;
@@ -276,18 +276,33 @@
 #008080 #ffffff #000000 0 1;
 #X obj 606 14 vsl 32 128 1.27 127 1 0 empty empty FOAM 0 -9 0 10 #004080
 #ffffff #000000 0 1;
-#X connect 1 0 0 0;
-#X connect 1 0 0 1;
+#X obj 43 209 hsl 128 32 0.01 1 1 0 empty empty WAVE\ 1\ VOL -2 -8
+0 10 #fcfcfc #000000 #000000 0 1;
+#X obj 89 194 *~;
+#X obj 256 209 hsl 128 32 0.01 1 1 0 empty empty WAVE\ 2\ VOL -2 -8
+0 10 #fcfcfc #000000 #000000 0 1;
+#X obj 327 194 *~;
+#X obj 482 213 hsl 128 32 0.01 1 1 0 empty empty WAVE\ 3\ VOL -2 -8
+0 10 #fcfcfc #000000 #000000 0 1;
+#X obj 541 198 *~;
+#X connect 1 0 14 0;
 #X connect 2 0 1 0;
 #X connect 3 0 1 1;
 #X connect 4 0 1 2;
-#X connect 5 0 0 0;
-#X connect 5 0 0 1;
-#X connect 6 0 0 0;
-#X connect 6 0 0 1;
+#X connect 5 0 16 0;
+#X connect 6 0 18 0;
 #X connect 7 0 5 0;
 #X connect 8 0 5 1;
 #X connect 9 0 5 2;
 #X connect 10 0 6 0;
 #X connect 11 0 6 1;
 #X connect 12 0 6 2;
+#X connect 13 0 14 1;
+#X connect 14 0 0 0;
+#X connect 14 0 0 1;
+#X connect 15 0 16 1;
+#X connect 16 0 0 0;
+#X connect 16 0 0 1;
+#X connect 17 0 18 1;
+#X connect 18 0 0 0;
+#X connect 18 0 0 1;
