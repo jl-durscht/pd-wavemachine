@@ -277,13 +277,13 @@
 #X obj 606 14 vsl 32 128 1.27 127 1 0 empty empty FOAM 0 -9 0 10 #004080
 #ffffff #000000 0 1;
 #X obj 43 209 hsl 128 32 0.01 1 1 0 empty empty WAVE\ 1\ VOL -2 -8
-0 10 #fcfcfc #000000 #000000 0 1;
+0 10 #ff8080 #000000 #000000 0 1;
 #X obj 89 194 *~;
 #X obj 256 209 hsl 128 32 0.01 1 1 0 empty empty WAVE\ 2\ VOL -2 -8
-0 10 #fcfcfc #000000 #000000 0 1;
+0 10 #ff8080 #000000 #000000 0 1;
 #X obj 327 194 *~;
 #X obj 482 213 hsl 128 32 0.01 1 1 0 empty empty WAVE\ 3\ VOL -2 -8
-0 10 #fcfcfc #000000 #000000 0 1;
+0 10 #ff8080 #000000 #000000 0 1;
 #X obj 541 198 *~;
 #X connect 1 0 14 0;
 #X connect 2 0 1 0;
